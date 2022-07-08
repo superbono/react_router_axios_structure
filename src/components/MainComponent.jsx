@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainComponent = (item) => {
+const MainComponent = (selectedMenuTitle) => {
 
     const drawModule = (item) => {
 
