@@ -4,9 +4,9 @@ import thunk from 'redux-thunk';
 import reducer1 from './reducers/reducer1';
 
 
-const rootReducer = combineReducers({
-    ...reducer1,
-})
+// const rootReducer = combineReducers({
+//     ...reducer1,
+// })
 
 // export const saga = createSagaMiddleware();
 
@@ -15,4 +15,4 @@ const rootReducer = combineReducers({
 // }
 
 // export default createStore(rootReducer, {}, composeWithDevTools(applyMiddleware(thunk, saga)));
-export default createStore(rootReducer, {}, composeWithDevTools(applyMiddleware(thunk)));
+// export default createStore(rootReducer, {}, composeWithDevTools(applyMiddleware(thunk)));
