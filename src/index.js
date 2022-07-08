@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import store from './store';
+import { Provider } from 'react-redux';
 import { ConfigProvider } from 'antd';
-import App from './App';
-
+import koKR from 'antd/lib/locale/ko_KR';
+import RouteContainer from './routes'
+// import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ConfigProvider>
-    <App />
-  </ConfigProvider>
+  <Provider store={store} >
+    <ConfigProvider locale={koKR}>
+      {/* <App /> */}
+      <RouteContainer />
+    </ConfigProvider>
+  </Provider>
 );
