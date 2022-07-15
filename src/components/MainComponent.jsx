@@ -1,5 +1,6 @@
 import React from 'react';
 
+// 메인 컴포넌트
 const MainComponent = (selectedMenuTitle) => {
 
     const drawModule = (item) => {
