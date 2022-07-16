@@ -18,6 +18,7 @@ const MainComponent = (selectedMenuTitle) => {
         // return (
         //   <h1>main page</h1>
         // )
+        // test
         switch (item.menuTitle.path) {
             default:
                 return null
