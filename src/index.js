@@ -8,7 +8,6 @@ import koKR from 'antd/lib/locale/ko_KR';
 import RouteContainer from './routes'
 // import App from './App';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <Provider store={store} >
