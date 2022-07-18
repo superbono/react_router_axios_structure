@@ -1,6 +1,6 @@
 import React from 'react';
 
-// 메인 컴포넌트
+// 메인 컴포넌트 구조 설계
 const MainComponent = (selectedMenuTitle) => {
 
     const drawModule = (item) => {
