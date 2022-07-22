@@ -8,7 +8,7 @@ import koKR from 'antd/lib/locale/ko_KR';
 import RouteContainer from './routes'
 // import App from './App';
 
-// root index.js 변경
+// root index.js 변경 및 적용
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <Provider store={store} >
